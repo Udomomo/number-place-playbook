@@ -1,0 +1,9 @@
+{
+  "name": "sudoku-playbook",
+  "private": true,
+  "description": "数独の定石手筋をステップごとに学べる静的サイト",
+  "scripts": {
+    "validate": "node tools/validate.js",
+    "serve": "npx http-server -p 8080 ."
+  }
+}
