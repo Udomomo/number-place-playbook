@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 // 盤面と候補を端末に表示する: node tools/show.js <id> [step]
 'use strict';
-const S = require('../assets/sudoku.js');
+const S = require('../assets/number-place.js');
 const DATA = require('../assets/techniques.js');
 
 function print(st, opts = {}) {

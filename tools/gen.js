@@ -2,7 +2,7 @@
 // 実際の唯一解パズルを生成し、基本手筋（シングル・ブロックと列の交差・ペア/トリプル）で
 // 解ける所まで解いて止まった局面が BUG+1 なら出力する: node tools/gen.js [puzzles]
 'use strict';
-const S = require('../assets/sudoku.js');
+const S = require('../assets/number-place.js');
 const { solveOne, count } = require('./solver.js');
 const { print } = require('./show.js');
 

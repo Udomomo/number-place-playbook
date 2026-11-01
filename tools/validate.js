@@ -5,7 +5,7 @@
 // - 各ステップの消去・確定が、その時点の候補から論理的に導けるか（背理法で全探索）
 // - ハイライトや仮定が実在する候補・マスを指しているか
 'use strict';
-const S = require('../assets/sudoku.js');
+const S = require('../assets/number-place.js');
 const { count, masksOf, digitCount } = require('./solver.js');
 const DATA = require('../assets/techniques.js');
 

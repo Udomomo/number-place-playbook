@@ -1,6 +1,6 @@
 // 検証用の制約ソルバー（候補マスク付きの盤面の解の個数を数える）
 'use strict';
-const S = require('../assets/sudoku.js');
+const S = require('../assets/number-place.js');
 
 const SINGLE = new Map();
 for (let d = 1; d <= 9; d++) SINGLE.set(S.bit(d), d);

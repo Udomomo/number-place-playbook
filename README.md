@@ -32,7 +32,7 @@ npx http-server -p 8080 .
 ```
 index.html              ページの骨組み
 assets/style.css        スタイル
-assets/sudoku.js        盤面の基本ロジック（セル指定の解析、候補の計算、ステップごとの状態）
+assets/number-place.js  盤面の基本ロジック（セル指定の解析、候補の計算、ステップごとの状態）
 assets/techniques.js    手筋データ（盤面・各ステップの表示と説明文）
 assets/app.js           描画（SVG の盤面、ステップ操作、ナビゲーション）
 tools/validate.js       手筋データの検証

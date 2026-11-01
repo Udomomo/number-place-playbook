@@ -10,7 +10,7 @@
 //    --fill のユニット内で指定セル以外のマスはすべて givens にする。
 //    --lack '<JSON {cell: digits}>' のマスは指定数字を候補にしない（他の数字の given になってもよい）。
 'use strict';
-const S = require('../assets/sudoku.js');
+const S = require('../assets/number-place.js');
 const { solveOne } = require('./solver.js');
 const { print } = require('./show.js');
 

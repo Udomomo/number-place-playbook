@@ -1,5 +1,5 @@
 {
-  "name": "sudoku-playbook",
+  "name": "number-place-playbook",
   "private": true,
   "description": "ナンプレの定石手筋をステップごとに学べる静的サイト",
   "scripts": {
