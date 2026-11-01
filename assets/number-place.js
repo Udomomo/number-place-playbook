@@ -5,7 +5,7 @@
 (function (root, factory) {
   const lib = factory();
   if (typeof module === 'object' && module.exports) module.exports = lib;
-  else root.Sudoku = lib;
+  else root.NumberPlace = lib;
 })(typeof self !== 'undefined' ? self : this, function () {
   'use strict';
 

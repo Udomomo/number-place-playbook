@@ -1,6 +1,6 @@
 (function () {
   'use strict';
-  const S = window.Sudoku;
+  const S = window.NumberPlace;
   const DATA = window.TECHNIQUES;
 
   /* ---------- 盤面の座標 ---------- */
